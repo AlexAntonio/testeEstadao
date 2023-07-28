@@ -3,16 +3,23 @@
 *Thumbs.db
 .htaccess
 
+config/*
+/data/*
+/data/mysql/*
+
 # WordPress Core
 /*.php
 *.txt
 *.html
 wp-admin/
-wp-content/index.php
 wp-includes/
 
 # WordPress Themes
 wp-content/themes/twenty*
+wp-content/themes/index.php
+wp-content/index.php
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
 
 # WordPress Plugins
 wp-content/plugins/
