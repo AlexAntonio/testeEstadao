@@ -4,21 +4,20 @@
 .htaccess
 
 # WordPress Core
-*.php
+/*.php
 *.txt
 *.html
 wp-admin/
+wp-content/index.php
 wp-includes/
 
 # WordPress Themes
-wp-content/themes/*.php
 wp-content/themes/twenty*
 
 # WordPress Plugins
 wp-content/plugins/
 
 # WordPress Content
-wp-content/*.php
 wp-content/backup*
 wp-content/cache/
 wp-content/languages/
