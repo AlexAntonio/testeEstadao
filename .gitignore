@@ -1,0 +1,26 @@
+# Hidden files
+*.DS_Store
+*Thumbs.db
+.htaccess
+
+# WordPress Core
+/*.php
+*.txt
+*.html
+wp-admin/
+wp-content/index.php
+wp-includes/
+
+# WordPress Themes
+wp-content/themes/twenty*
+
+# WordPress Plugins
+wp-content/plugins/
+
+# WordPress Content
+wp-content/backup*
+wp-content/cache/
+wp-content/languages/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/debug.log
